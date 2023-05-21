@@ -1,0 +1,24 @@
+.svgs{
+    color: rgba(44, 44, 44, 0.788);
+    >button{
+        height: 40px;
+        text-transform: none;
+        padding: 9px 24px;
+        background-color: #c2e7ff;
+        font-weight: 600;
+        font-size: 14px;
+        border-radius: 100px;
+        color:#001d35;
+        margin-top: -5px;
+        >svg{
+            font-size: 15px;
+            padding-right: 5px;
+
+        }
+        &:hover{
+            background-color: #c2e7ef;
+            box-shadow: 0 1px 2px rgba(0,0,0,.3);
+        }
+
+    }
+}

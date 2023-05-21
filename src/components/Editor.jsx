@@ -27,18 +27,15 @@ function Editor() {
   useEffect(()=>{
     const quillServer=new Quill('#container',{theme:'snow', modules:{toolbar:toolbarOptions}})
   },[])
-  const [title,setTitle]=useState('Untitled');
-  useEffect(() => {
-      document.title = title;
-  }, [title]);
   
-  const handleTitle = (e)=>{
-    setTitle(e.target.value)
-  }
+  
+  
   return (
-    <div className='Editor' >
-      <input type='text' onChange={handleTitle} />
-      <Box id='container'> </Box>
+
+    <div  style={{paddingLeft:10,paddingRight:10, marginTop:10}}>
+      <Box id='container'>
+      <button id="custom-button">back</button>
+      </Box>
     </div>
     
   )
