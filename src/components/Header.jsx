@@ -23,15 +23,15 @@ function Header() {
                     </Box>
                 </Grid>
                 <Grid item xs={7}>
-                    <Box> <input style={{border:0, fontSize:20,color:'grey'}}  type='text' onChange={handleTitle} defaultValue={title} /></Box>
+                    <Box> <input style={{border:0, fontSize:20,color:'grey', backgroundColor:'#f8f9fa'}}  type='text' onChange={handleTitle} defaultValue={title} /></Box>
                 </Grid>
                 <Grid item xs={2} marginLeft={20} marginRight={'auto'} minWidth={'25%'} >
                     <Box paddingTop={1.5} className='svgs' display={'flex'}  marginRight={'auto'}>
-                        <FaHistory size={'22'}  style={{paddingRight:30}}  />
-                        <MdComment size={'22'} style={{paddingRight:30}} />
-                        <BiVideo size={'22'} style={{paddingRight:30}} />
-                        <Button><MdLockOutline  /> Share</Button>
-                        <Avatar>K</Avatar>
+                        <FaHistory size={'20'}  style={{marginRight:30}}  />
+                        <MdComment size={'22'} style={{marginRight:30}} />
+                        <BiVideo size={'22'} style={{marginRight:30}} />
+                        <Button ><MdLockOutline  /> Share</Button>
+                        <Avatar >K</Avatar>
                 
                     </Box>
                 </Grid>
